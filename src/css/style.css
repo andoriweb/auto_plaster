@@ -1,0 +1,74 @@
+html {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: regular;
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  padding: 2rem 0;
+}
+
+.header-contact {
+  text-align: right;
+}
+
+.header-contact__phone {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 3rem;
+}
+
+.button {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ffb100;
+  padding: 1.5rem 2.5rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background-color: #e69f00;
+}
+
+.main {
+  background-color: #e5e5e5;
+}
+
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+    padding: 0;
+  }
+  .header__logo {
+    margin-top: 2rem;
+  }
+  .header-contact {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova Reg';
+  src: url("../fonts/ProximaNovaRegular/ProximaNova-Regular.eot");
+  src: local("../fonts/ProximaNovaRegular/Proxima Nova Regular"), local("../fonts/ProximaNovaRegular/ProximaNova-Regular"), url("../fonts/ProximaNovaRegular/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaRegular/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNovaRegular/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNovaRegular/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNovaRegular/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/ProximaNovaBold/ProximaNova-Bold.eot");
+  src: local("../fonts/ProximaNovaBold/Proxima Nova Bold"), local("../fonts/ProximaNovaBold/ProximaNova-Bold"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNovaBold/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
