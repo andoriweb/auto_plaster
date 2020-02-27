@@ -1,3 +1,6 @@
+$color-accent: #00c939
+$color-btn: #ffb100
+
 html
   font-family: 'Proxima Nova', sans-serif
   font-weight: regular
@@ -7,22 +10,36 @@ img
   max-width: 100%
 
 section
-  padding: 5% 0
+  padding: 5% 0 7%
+
+.button
+  font-size: 1.2rem
+  color: #fff
+  background-color: $color-btn
+  padding: 1.5rem 2.5rem
+  border-radius: 8px
+  outline: none
+  border: none
+  cursor: pointer
+  &:hover
+    background-color: darken($color-btn, 5%)
 
 .section-title
   font-size: 3.6rem
   font-weight: bold
   text-align: center
 
+.section-subtitle
+  font-size: 1.8rem
+  text-align: center
 
-$color-accent: #00c939
-$color-btn: #ffb100
 
 @import 'main'
 @import 'header'
 @import 'hero'
 @import 'forms'
 @import 'adventage'
+@import 'prices'
 
 @import 'media'
 @import 'fonts'
