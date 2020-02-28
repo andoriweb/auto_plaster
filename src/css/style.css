@@ -278,6 +278,28 @@ ul {
   text-transform: uppercase;
 }
 
+.scheme {
+  background: #fff url(../img/scheme/scheme-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.scheme__img {
+  margin-top: 6rem;
+  min-height: 11rem;
+}
+
+.scheme__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+.scheme__subtitle {
+  font-size: 1.7rem;
+  max-width: 28rem;
+  margin-top: 3rem;
+}
+
 .material {
   text-align: center;
 }
@@ -312,6 +334,14 @@ ul {
   }
   .form {
     margin-top: 5rem;
+  }
+  .scheme {
+    text-align: center;
+    background: #fff url(../img/scheme/scheme-bg.jpg) center bottom no-repeat;
+    background-size: active;
+  }
+  .scheme__subtitle {
+    margin: 4rem auto 0;
   }
 }
 
