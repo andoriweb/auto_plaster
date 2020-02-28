@@ -1,7 +1,7 @@
     /*Slick-slider*/
     
 $(document).ready(function(){
-  $('.adventage-slider').slick({
+  $('.adventage-slider, .materil-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
