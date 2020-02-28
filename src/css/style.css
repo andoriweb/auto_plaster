@@ -20,6 +20,7 @@ ul {
 .button {
   font-size: 1.2rem;
   color: #fff;
+  text-transform: uppercase;
   background-color: #ffb100;
   padding: 1.5rem 2.5rem;
   border-radius: 8px;
@@ -48,7 +49,7 @@ ul {
 }
 
 .main {
-  background: #e5e5e5 url(../img/main-bg.jpg) center center no-repeat;
+  background: #e5e5e5 url(../img/main/main-bg.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -302,6 +303,8 @@ ul {
 
 .material {
   text-align: center;
+  background: #fff url(../img/material/material-bg.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 .material__img {
@@ -325,6 +328,26 @@ ul {
   display: inline-block;
   font-size: 1.6rem;
   margin-bottom: 7rem;
+}
+
+.service {
+  background-color: #286b0a;
+  text-align: center;
+}
+
+.service-title, .service-subtitle {
+  color: #fff;
+}
+
+.service__img {
+  margin-top: 6rem;
+}
+
+.service__work {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 3rem 0;
 }
 
 @media (max-width: 991px) {
