@@ -1,0 +1,48 @@
+.feetback
+  background: url(../img/feetback/feetback-bg.jpg) center no-repeat
+  background-size: cover
+
+  &-slider
+    background-color: #fff
+    box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11)
+    padding: 6rem
+
+  &__description
+    font-size: 1.6rem
+    line-height: 2
+
+  &-client
+    margin-top: 3rem
+    
+    &__foto
+      display: inline-block
+      vertical-align: middle
+      margin-right: 2rem
+
+    &__name
+      display: inline-block
+      font-size: 1.4rem 
+      vertical-align: middle
+      span
+        font-size: 1.8rem
+        font-weight: bold
+
+    &__text
+      position: relative
+      font-size: 1.5rem
+      font-style: italic
+      padding: 2rem
+      margin-top: 1.5rem
+      border: 2px solid $color-accent
+      &::before
+        display: block
+        position: absolute
+        left: 5rem
+        top: -2rem
+        content: ''
+        width: 2rem
+        height: 2rem
+        background-color: #fff
+        border: 2px solid $color-accent
+        border-bottom: none
+        border-top-right-radius: 50px

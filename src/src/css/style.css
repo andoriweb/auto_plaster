@@ -1,0 +1,49 @@
+html {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: regular;
+  font-size: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding: 5% 0 7%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.button {
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ffb100;
+  padding: 1.5rem 2.5rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e69f00;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.reference {
+  color: #6ba253;
+}
