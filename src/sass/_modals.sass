@@ -1,0 +1,156 @@
+/** Modals **/
+/** Modal-prices **/
+.overlay-prices
+  position: fixed
+  display: none
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, .4)
+  z-index: 5
+
+.popup-prices
+  position: fixed
+  left: 50%
+  transform: translateX(-50%)
+  top: 50px
+  background-color: #fff
+
+  &__close
+    position: absolute
+    right: -20px
+    top: -30px
+    font-size: 3.5rem
+    font-weight: bold
+    color: #fff
+    cursor: pointer
+
+/** Modal-calculator **/
+.overlay-calculator
+  position: fixed
+  display: none
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, .4)
+  z-index: 5
+
+.popup-calculator
+  position: fixed
+  left: 50%
+  transform: translateX(-50%)
+  top: 10%
+  background-color: #fff
+  width: 90%
+  max-width: 700px
+  // margin: 0
+  // padding: 0
+
+  &__close
+    position: absolute
+    right: -20px
+    top: -30px
+    font-size: 3.5rem
+    font-weight: bold
+    color: #fff
+    cursor: pointer
+
+.calculator
+  &-block
+    display: flex
+  &-service
+    padding: 5rem 0 1rem
+    text-align: center
+    width: 50%
+    background-color: #f8f8f8
+    font-size: 1.8rem
+    &-question
+      font-weight: bold
+      margin-top: 6rem
+  &-answer
+    display: flex
+    justify-content: space-around
+    &-item
+      display: flex
+      flex-direction: column
+      align-items: center
+      &__img
+        margin: 35px auto 25px
+        min-height: 50px
+      label
+        font-size: 1.5rem
+        margin-top: 2rem
+        min-height: 35px
+  &__btn
+    border-radius: 8px
+    padding: 1.5rem 5rem
+    font-size: 1.4rem
+    font-weight: bold
+    text-transform: uppercase
+    outline: none
+    border: none
+    margin: 4.5rem auto 2rem
+  &__next
+    background-color: #e4e4e4
+    color: #4b4b4b
+  &__price
+    background-color: #f9b002
+    color: #fff
+  &-form
+    position: relative
+    width: 50%
+
+.arrow-none
+  width: 0
+  opacity: 0
+  
+/** Modal-service **/
+.overlay-service
+  position: fixed
+  display: none
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, .4)
+  z-index: 5
+
+.popup-service
+  position: fixed
+  left: 50%
+  transform: translateX(-50%)
+  top: 10%
+  background-color: #fff
+  padding: 5%
+  max-width: 800px
+  font-size: 1.5rem
+
+  caption
+    font-size: 1.8rem
+    font-weight: bold
+    margin-bottom: 3rem
+
+  th
+    font-weight: bold
+    padding: 2rem
+
+  td
+    padding: 2rem
+
+  &__close
+    position: absolute
+    right: -20px
+    top: -30px
+    font-size: 3.5rem
+    font-weight: bold
+    color: #fff
+    cursor: pointer
+
+
+
+table, th, td
+  border: 1px solid #ddd
+table
+  border-collapse: collapse

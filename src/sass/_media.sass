@@ -1,9 +1,17 @@
+@media (max-width: 1199px)
+	.inclusive
+		&__service
+			display: block
+	.misgiving
+		&__img
+			display: none
+	
 @media (max-width: 991px)
 	.main
 		background-position: top right
 		text-align: center
 	.form
-		margin-top: 5rem
+		// margin-top: 5rem
 	.scheme
 		text-align: center
 		background: #fff url(../img/scheme/scheme-bg.jpg) center bottom no-repeat
@@ -17,6 +25,45 @@
 			left: 0
 		&-next
 			right: 0
+		&-bg__img
+			display: none
+	section.feetback
+		padding-bottom: 7%
+	.inclusive
+		&__service
+			display: inline-block
+	.work
+		background: none #fff5ed
+		&__title
+			text-align: center
+	.contacts
+		background: none
+		background-color: #fff
+
+	.popup-calculator, .popup-prices
+		max-height: 100%
+		overflow: auto
+		top: 5%
+
+	.popup-service
+		width: 80%
+
+	.slick-next
+		opacity: 0
+		margin-right: 30px
+
+@media (max-width: 830px)
+	.popup-prices
+		width: 70%
+		top: 0
+	.popup-service
+		max-height: 100%
+		overflow: auto
+		top: 0
+		&__close
+			color: #000
+			right: 20px
+			top: 10px
 
 @media (max-width: 767px)
 	.header
@@ -32,12 +79,85 @@
 	.feetback
 		&-slider
 			padding: 6rem 2rem
+		&-form
+			&-group
+				width: 47%
+	.inclusive
+		&-title
+    	font-size: 4rem
+		&-subtitle
+			font-size: 1.6rem
+			margin-bottom: 2rem
+		&-facility
+			margin-top: 4rem
+		&__service
+    	max-width: 80%
+		&__descr
+			max-width: 80%
+	.footer
+		&-contact
+			text-align: right
+		&-studio
+			display: none
+	.popup-calculator
+		top: 0
+		width: 100%
+		&__close
+			color: #000
+			right: 20px
+			top: 10px
+	.calculator
+		&-block
+			flex-direction: column
+		&-service
+			width: 100%
+		&-form
+			width: 100%
+			&_reset
+				margin-top: 0
+
+	.popup-prices,
+		top: 0
+		&__close
+			color: #000
+			right: 20px
+			top: 10px
+
+	.popup-service
+		width: 100%
+
+@media (max-width: 575px)
+	.feetback
+		&-form-group
+			display: block
+			width: 100%
+	.footer
+		&__logo
+			img
+				display: block
+				margin: 0 auto
+		&-contact
+			text-align: center
+			margin-top: 3rem
+
+	.popup-prices
+		width: 100%
+
+	
 
 @media (max-width: 430px)
 	.hero-offer__title
 		font-size: 3rem
+	.misgiving
+		&-block
+			padding: 3rem 1rem 2rem 1rem
 
 @media (max-width: 400px)
 	.header-contact__phone
 		padding: 2rem
 		margin: 0 auto
+	.inclusive
+		&__service
+    	max-width: 70%
+		&__descr
+			max-width: 70%

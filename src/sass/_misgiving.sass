@@ -1,0 +1,57 @@
+.misgiving
+  position: relative
+
+  &__title
+    font-size: 2rem
+    font-weight: bold
+
+  &-block
+    padding: 3rem 3rem 2rem 3rem
+    margin-top: 5%
+
+  &__list
+    font-size: 1.6rem
+    min-height: 24rem
+
+    li
+      margin-top: 3.5rem
+      position: relative
+      padding-left: 3rem
+      &::before
+        position: absolute
+        content: ''
+        left: 0
+        top: 50%
+        transform: translateY(-50%)
+        width: 1.2rem
+        height: 1.2rem
+      
+  &-problems
+    border: 3px solid #e8e8e8
+
+    &__title
+      color: #acacac
+ 
+    &__list
+      li
+        &::before
+          background: url(../img/misgiving/bad.png) center
+          background-size: 100%  
+
+  &-solution
+    border: 3px solid #358015
+
+    &__list
+      font-size: 1.5rem
+      li
+        &::before
+          background: url(../img/misgiving/good.png) no-repeat
+          width: 2rem
+          height: 2rem
+
+  &__img
+    position: absolute
+    width: 28rem
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
