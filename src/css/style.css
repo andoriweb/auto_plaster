@@ -926,10 +926,20 @@ table {
     background: none;
     background-color: #fff;
   }
+  .popup-prices__close {
+    color: #000;
+    right: 20px;
+    top: 10px;
+  }
   .popup-calculator, .popup-prices {
     max-height: 100%;
     overflow: auto;
     top: 5%;
+  }
+  .popup-calculator__close {
+    color: #000;
+    right: 20px;
+    top: 10px;
   }
   .popup-service {
     width: 80%;
@@ -1064,11 +1074,14 @@ table {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 433px) {
   .header-contact__phone {
     padding: 2rem;
     margin: 0 auto;
   }
+}
+
+@media (max-width: 400px) {
   .inclusive__service {
     max-width: 70%;
   }

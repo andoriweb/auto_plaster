@@ -10,8 +10,7 @@
 	.main
 		background-position: top right
 		text-align: center
-	.form
-		// margin-top: 5rem
+
 	.scheme
 		text-align: center
 		background: #fff url(../img/scheme/scheme-bg.jpg) center bottom no-repeat
@@ -40,10 +39,22 @@
 		background: none
 		background-color: #fff
 
+	.popup-prices
+		&__close
+			color: #000
+			right: 20px
+			top: 10px
+
 	.popup-calculator, .popup-prices
 		max-height: 100%
 		overflow: auto
 		top: 5%
+
+	.popup-calculator
+		&__close
+			color: #000
+			right: 20px
+			top: 10px
 
 	.popup-service
 		width: 80%
@@ -143,8 +154,6 @@
 	.popup-prices
 		width: 100%
 
-	
-
 @media (max-width: 430px)
 	.hero-offer__title
 		font-size: 3rem
@@ -152,10 +161,12 @@
 		&-block
 			padding: 3rem 1rem 2rem 1rem
 
-@media (max-width: 400px)
+@media (max-width: 433px)
 	.header-contact__phone
 		padding: 2rem
 		margin: 0 auto
+
+@media (max-width: 400px)
 	.inclusive
 		&__service
     	max-width: 70%
